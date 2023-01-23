@@ -6,7 +6,7 @@ print ('The number is ', n_base10)
 # step 1 - Перевод в двоичную систему - step 1
 n_base2 = ''
 n_new = n_base10
-while n_new > 1:
+while n_new > 2:
     n_base2 += str(n_new%2)
     n_new //= 2
 n_base2 += '1'
